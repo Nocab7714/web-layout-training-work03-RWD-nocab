@@ -1,32 +1,33 @@
-.banner{
+.banner {
   background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png);
   height: 396px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 
-  @media (min-width:769px){
-    &{
+  @media (min-width: 576px) {
+    & {
       background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png);
     }
   }
-  
-  @media (min-width:375px){
-    &{
+
+  @media (min-width: 576px) {
+    & {
       height: 787px;
     }
   }
 }
 
-.co-branding-glasses{
+.co-branding-glasses {
   background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg-sm.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
-  @media (min-width:769px){
-    &{
+  @media (min-width: 769px) {
+    & {
       background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png);
     }
   }
 }
+
