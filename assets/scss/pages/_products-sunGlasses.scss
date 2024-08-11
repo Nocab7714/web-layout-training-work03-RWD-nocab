@@ -1,0 +1,15 @@
+$color-dark-brown: #5F3E2D;
+$color-light-brown:#B75929;
+
+.color-box{
+  width: 24px;
+  height: 24px;
+}
+
+.bg-dark-brown{
+  background-color: $color-dark-brown;
+}
+
+.bg-light-brown{
+  background-color: $color-light-brown;
+}

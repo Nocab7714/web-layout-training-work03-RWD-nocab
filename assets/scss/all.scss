@@ -1,6 +1,3 @@
-// base
-@import "/assets/scss/base/base";
-
 // BS-5 Configuration
 @import "../node_modules/bootstrap/scss/functions";
 @import "/assets/scss/helpers/variables";
@@ -48,7 +45,12 @@
 // BS-5 Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
+// base
+@import "/assets/scss/base/base";
+
 // customs
 @import './layout/header.scss';
 @import './layout/footer.scss';
 @import './pages/index.scss';
+@import './pages/products-optical.scss';
+@import './pages/products-sunGlasses.scss';
