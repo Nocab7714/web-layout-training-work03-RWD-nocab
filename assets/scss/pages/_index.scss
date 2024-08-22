@@ -5,15 +5,15 @@
   background-size: cover;
   background-position: left;
 
-  @media (min-width: 576px) {
+  @include media-breakpoint-up(sm) {
     & {
-      background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png);
+      height: 787px;
     }
   }
 
-  @media (min-width: 576px) {
+  @include media-breakpoint-up(md) {
     & {
-      height: 787px;
+      background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png);
     }
   }
 }
@@ -24,10 +24,9 @@
   background-size: cover;
   background-position: center;
 
-  @media (min-width: 769px) {
+  @include media-breakpoint-up(md) {
     & {
       background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png);
     }
   }
 }
-
